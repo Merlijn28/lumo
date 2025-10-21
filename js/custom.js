@@ -44,6 +44,7 @@ $(document).ready(function()
 	initSearch();
 	initMenu();
 	initIsotope();
+	initSmoothScrolling();
 
 	/* 
 
@@ -296,6 +297,29 @@ $(document).ready(function()
 	            }
 	        });
 		}
+	}
+
+	/* 
+
+	7. Init Smooth Scrolling
+
+	*/
+
+	function initSmoothScrolling()
+	{
+		// Smooth scrolling for anchor links
+		$('a[href*="#"]:not([href="#"])').click(function() {
+			if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+				var target = $(this.hash);
+				target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+				if (target.length) {
+					$('html, body').animate({
+						scrollTop: target.offset().top - 100
+					}, 1000);
+					return false;
+				}
+			}
+		});
 	}
 
 });

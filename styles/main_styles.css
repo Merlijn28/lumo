@@ -75,7 +75,7 @@ p a
 	display: inline;
 	position: relative;
 	color: inherit;
-	border-bottom: solid 1px #ffa07f;
+	border-bottom: solid 1px #f3c34b;
 	-webkit-transition: all 200ms ease;
 	-moz-transition: all 200ms ease;
 	-ms-transition: all 200ms ease;
@@ -96,12 +96,12 @@ a, a:hover, a:visited, a:active, a:link
 p a:active
 {
 	position: relative;
-	color: #FF6347;
+	color: #f3c34b;
 }
 p a:hover
 {
 	color: #FFFFFF;
-	background: #ffa07f;
+	background: #f3c34b;
 }
 p a:hover::after
 {
@@ -138,7 +138,7 @@ h6::selection
 }
 .form-control
 {
-	color: #db5246;
+	color: #f3c34b;
 }
 section
 {
@@ -462,8 +462,8 @@ section
 .shopping_cart a:hover svg,
 .shopping_cart a:hover div
 {
-	fill: #e95a5a;
-	color: #e95a5a;
+	fill: #f3c34b;
+	color: #f3c34b;
 }
 .shopping_cart a div
 {
@@ -510,7 +510,7 @@ section
 }
 .search_icon:hover svg
 {
-	fill: #e95a5a;
+	fill: #f3c34b;
 }
 .hamburger
 {
@@ -818,6 +818,7 @@ section
 	padding-left: 60px;
 	padding-right: 60px;
 	padding-bottom: 30px;
+	position: relative;
 }
 .home_slider_background
 {
@@ -829,6 +830,7 @@ section
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
+	z-index: 1;
 }
 .home_slider_content_container
 {
@@ -836,6 +838,7 @@ section
 	left: 0;
 	top: 32.3%;
 	width: 100%;
+	z-index: 10;
 }
 .home_slider_content
 {
@@ -859,6 +862,23 @@ section
 .home_button
 {
 	margin-top: 40px;
+}
+.home_button.newsletter_button
+{
+	border: solid 2px #FFFFFF;
+	background: transparent;
+}
+.home_button.newsletter_button span
+{
+	color: #FFFFFF;
+}
+.home_button.newsletter_button::after
+{
+	background: #FFFFFF;
+}
+.home_button.newsletter_button:hover span
+{
+	color: #1b1b1b;
 }
 .home_slider_dots_container
 {
@@ -897,11 +917,11 @@ section
 }
 .home_slider_custom_dot:hover
 {
-	color: #e95a5a;
+	color: #f3c34b;
 }
 .home_slider_custom_dot.active
 {
-	color: #e95a5a;
+	color: #f3c34b;
 }
 .owl-theme .owl-dots
 {
@@ -1117,7 +1137,7 @@ section
 }
 .product_title a:hover
 {
-	color: #e95a5a;
+	color: #f3c34b;
 }
 .product_price
 {
@@ -1156,7 +1176,7 @@ section
 }
 .product_sale
 {
-	background: #e95a5a;
+	background: #f3c34b;
 }
 .product_hot
 {
@@ -1197,7 +1217,7 @@ section
 {
 	width: 391px;
 	height: 100%;
-	background: #e95a5a;
+	background: #f3c34b;
 	float: right;
 	padding-top: 28px;
 	padding-left: 42px;

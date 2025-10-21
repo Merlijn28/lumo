@@ -73,7 +73,7 @@ p a
 	display: inline;
 	position: relative;
 	color: inherit;
-	border-bottom: solid 1px #ffa07f;
+	border-bottom: solid 1px #f3c34b;
 	-webkit-transition: all 200ms ease;
 	-moz-transition: all 200ms ease;
 	-ms-transition: all 200ms ease;
@@ -94,12 +94,12 @@ a, a:hover, a:visited, a:active, a:link
 p a:active
 {
 	position: relative;
-	color: #FF6347;
+	color: #f3c34b;
 }
 p a:hover
 {
 	color: #FFFFFF;
-	background: #ffa07f;
+	background: #f3c34b;
 }
 p a:hover::after
 {
@@ -136,7 +136,7 @@ h6::selection
 }
 .form-control
 {
-	color: #db5246;
+	color: #f3c34b;
 }
 section
 {
@@ -460,8 +460,8 @@ section
 .shopping_cart a:hover svg,
 .shopping_cart a:hover div
 {
-	fill: #e95a5a;
-	color: #e95a5a;
+	fill: #f3c34b;
+	color: #f3c34b;
 }
 .shopping_cart a div
 {
@@ -508,7 +508,7 @@ section
 }
 .search_icon:hover svg
 {
-	fill: #e95a5a;
+	fill: #f3c34b;
 }
 .hamburger
 {
@@ -852,7 +852,7 @@ section
 }
 .home_title span
 {
-	color: #e95a5a;
+	color: #f3c34b;
 }
 .home_text
 {
@@ -973,7 +973,7 @@ section
 	display: inline-block;
 	font-size: 16px;
 	font-weight: 500;
-	color: #e95a5a;
+	color: #f3c34b;
 	margin-right: 20px;
 	text-decoration: line-through;
 }
@@ -1232,7 +1232,7 @@ section
 }
 .product_title a:hover
 {
-	color: #e95a5a;
+	color: #f3c34b;
 }
 .product_price
 {
@@ -1271,7 +1271,7 @@ section
 }
 .product_sale
 {
-	background: #e95a5a;
+	background: #f3c34b;
 }
 .product_hot
 {

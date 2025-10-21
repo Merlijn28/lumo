@@ -71,7 +71,7 @@ p a
 	display: inline;
 	position: relative;
 	color: inherit;
-	border-bottom: solid 1px #ffa07f;
+	border-bottom: solid 1px #f3c34b;
 	-webkit-transition: all 200ms ease;
 	-moz-transition: all 200ms ease;
 	-ms-transition: all 200ms ease;
@@ -92,12 +92,12 @@ a, a:hover, a:visited, a:active, a:link
 p a:active
 {
 	position: relative;
-	color: #FF6347;
+	color: #f3c34b;
 }
 p a:hover
 {
 	color: #FFFFFF;
-	background: #ffa07f;
+	background: #f3c34b;
 }
 p a:hover::after
 {
@@ -134,7 +134,7 @@ h6::selection
 }
 .form-control
 {
-	color: #db5246;
+	color: #f3c34b;
 }
 section
 {
@@ -462,8 +462,8 @@ section
 .shopping_cart a:hover svg,
 .shopping_cart a:hover div
 {
-	fill: #e95a5a;
-	color: #e95a5a;
+	fill: #f3c34b;
+	color: #f3c34b;
 }
 .shopping_cart a div
 {
@@ -510,7 +510,7 @@ section
 }
 .search_icon:hover svg
 {
-	fill: #e95a5a;
+	fill: #f3c34b;
 }
 .hamburger
 {
@@ -851,7 +851,7 @@ section
 	position: relative;
 	font-size: 14px;
 	font-weight: 500;
-	color: #e95a5a;
+	color: #f3c34b;
 }
 .breadcrumbs ul li:not(:last-child)::after
 {
@@ -874,7 +874,7 @@ section
 }
 .breadcrumbs ul li a:hover
 {
-	color: #e95a5a;
+	color: #f3c34b;
 }
 
 /*********************************
@@ -1094,11 +1094,11 @@ section
 }
 .payment_option input:checked ~ .checkmark
 {
-	border: solid 2px #e95a5a;
+	border: solid 2px #f3c34b;
 }
 .payment_option input:hover ~ .checkmark
 {
-	border: solid 2px #e95a5a;
+	border: solid 2px #f3c34b;
 }
 .order_text
 {
