@@ -832,6 +832,14 @@ section
 	background-position: center center;
 	z-index: 1;
 }
+
+/* Mobile banner focus adjustment */
+@media (max-width: 768px) {
+	.home_slider_background
+	{
+		background-position: 80% center;
+	}
+}
 .home_slider_content_container
 {
 	position: absolute;
